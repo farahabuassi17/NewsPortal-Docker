@@ -1,0 +1,22 @@
+version: '3.8'
+
+services:
+  web:
+    build: .
+    ports:
+      - "8080:80"
+    depends_on:
+      - db
+
+  db:
+    image: mysql:8.0
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: news_db
+      MYSQL_USER: news_user
+      MYSQL_PASSWORD: news_pass
+    volumes:
+      - db_data:/var/lib/mysql
+
+volumes:
+  db_data:

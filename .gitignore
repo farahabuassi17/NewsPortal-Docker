@@ -1,0 +1,19 @@
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor / IDE files
+.vscode/
+.idea/
+
+# PHP logs
+*.log
+error_log
+
+# Environment files
+.env
+.env.*
+
+# Docker volumes
+db_data/
+
