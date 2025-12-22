@@ -12,3 +12,5 @@ The most important lesson I learned about Git and GitHub is the importance of a 
 I learned how to initialize a repository, create meaningful commits, connect a local project to a remote GitHub repository, and push changes correctly using upstream branches.
 Using clear commit messages helped me track my progress and made the project easier to understand for others.
 This assignment taught me how GitHub is used in real-world projects to collaborate, document progress, and publish professional work.
+.. 
+I added a GitHub Actions workflow to automatically build the Docker image on every push, ensuring continuous integration and early detection of build issues.
