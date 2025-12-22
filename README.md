@@ -77,6 +77,7 @@ If all pages load correctly and data is stored in the database, the application 
 
 This project was developed for educational purposes as part of an Operating Systems Lab assignment.
 No external open-source project was directly reused.
+
 ## Docker Compose
 
 This project uses Docker Compose to run multiple services:
@@ -96,5 +97,7 @@ To simplify working with Docker, a Makefile is provided:
 - `make stop` – Stop running containers
 - `make clean` – Stop containers and remove volumes
 - `make logs` – View container logs
+
+> This project follows a professional Git workflow using feature branches and pull requests.
 
 

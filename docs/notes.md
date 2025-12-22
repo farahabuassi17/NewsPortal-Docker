@@ -41,4 +41,15 @@ Common tasks such as building, running, stopping, and cleaning the project
 can now be executed using short and clear commands.
 This makes the project easier to use for any developer.
 
+### Pull Request Workflow
+
+I used a feature branch and opened a Pull Request into the main branch.
+The Pull Request included a clear description of changes and screenshots.
+This demonstrates a professional Git workflow similar to real-world development teams.
+-----------
+This update was made using a feature branch and merged via Pull Request.
+This update was made using a feature branch and merged via Pull Request.
+
+
+
 
