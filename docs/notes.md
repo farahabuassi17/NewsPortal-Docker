@@ -13,4 +13,24 @@ I learned how to initialize a repository, create meaningful commits, connect a l
 Using clear commit messages helped me track my progress and made the project easier to understand for others.
 This assignment taught me how GitHub is used in real-world projects to collaborate, document progress, and publish professional work.
 .. 
+### Docker Compose to manage multiple services
+I used Docker Compose to manage multiple services (web and database),
+making the project easier to run with a single command.
+
+## GitHub Actions workflow 
 I added a GitHub Actions workflow to automatically build the Docker image on every push, ensuring continuous integration and early detection of build issues.
+
+### Multi-stage Docker Build
+
+I used a multi-stage Docker build to reduce the final image size.
+The first stage installs and prepares the required PHP extensions.
+The second stage copies only the necessary runtime files and extensions.
+This approach improves performance, reduces image size, and follows Docker best practices.
+
+### Healthcheck
+
+I added a Docker healthcheck to ensure the application is running correctly.
+A simple health endpoint (health.php) was created to return HTTP 200.
+Docker periodically checks this endpoint and marks the container as healthy or unhealthy.
+This improves reliability and follows best practices for containerized applications.
+
