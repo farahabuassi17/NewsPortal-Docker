@@ -72,7 +72,7 @@ No additional environment configuration is required.
 
 6. Refresh the page to confirm data persistence.
 
-7.If all pages load correctly and data is stored in the database, the application is working as expected
+If all pages load correctly and data is stored in the database, the application is working as expected
 
 ## Attribution
 
