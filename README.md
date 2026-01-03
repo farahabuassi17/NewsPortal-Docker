@@ -1,4 +1,4 @@
-# NewsPortal-Docker
+# 📰NewsPortal-Docker
 
 A simple PHP & MySQL news management system containerized with Docker.  
 The project allows users to register, log in, manage news articles, and organize them into categories.  
@@ -60,16 +60,17 @@ MySQL root password: root
 No additional environment configuration is required.
 
 ## How to Test the Application
-Open the application in the browser:http://localhost:8080
-Register a new user using the registration page.
+1. Open the application in the browser:http://localhost:8080
 
-Log in with the created account.
+2. Register a new user using the registration page.
 
-Access the dashboard.
+3. Log in with the created account.
 
-Add categories and news articles.
+4. Access the dashboard.
 
-Refresh the page to confirm data persistence.
+5. Add categories and news articles.
+
+6. Refresh the page to confirm data persistence.
 
 If all pages load correctly and data is stored in the database, the application is working as expected
 
